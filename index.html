@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Trivia Game</title>
+</head>
+<body>
+     <button id="start">Begin Quiz</button>
+    <div id="quiz">
+            <p>Select a maintenance drone:</p>
+
+            <div>
+              <input type="radio" id="huey" name="drone" value="huey"
+                     checked>
+              <label for="huey">Huey</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="dewey" name="drone" value="dewey">
+              <label for="dewey">Dewey</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="louie" name="drone" value="louie">
+              <label for="louie">Louie</label>
+            </div>
+            
+    </div>
+    <div>Quiz ends in <span id="time">05:00</span> minutes!</div>
+    
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
